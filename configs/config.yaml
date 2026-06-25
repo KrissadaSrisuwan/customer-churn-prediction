@@ -1,0 +1,14 @@
+# Data
+raw_data_path: data/raw/customer_churn.csv
+clean_data_path: data/interim/customer_churn_clean.csv
+processed_data_path: data/processed/customer_churn_processed.csv
+
+# Target
+target_column: Churn
+
+# Train/Test Split
+test_size: 0.2
+random_state: 42
+
+# Model
+model_name: RandomForestClassifier
